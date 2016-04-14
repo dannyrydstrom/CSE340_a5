@@ -1,14 +1,13 @@
-#include <stdio.h>
-#define p
+#include <stdio.h> 
 
 int b;
 int temp = 3;
-int set_b(int &i, int &a)
+int set_b(int & i, int & a)
 {
 i = i + 1;
 b = a;
 }
-int p(int &x, int &S)
+int p(int & x, int & S)
 {
 for (x = 0; x < 3; x++) {
 temp = temp + S;
